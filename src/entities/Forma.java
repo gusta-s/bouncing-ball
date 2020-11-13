@@ -18,7 +18,7 @@ public abstract class Forma {
 	protected int tA, tL;
 	private Random r = new Random();
 	protected int x, y, velocidade;
-	protected int diametro = 20;
+	protected int diametro = (int)area();
 	protected boolean cima = false, direita = false;
 	protected Cores cor = new Cores();
 
@@ -149,4 +149,10 @@ public abstract class Forma {
 	public String toString() {
 		return "x: " + x + ", y: " + y + ", velocidade: " + velocidade;
 	}
+}
+	/**
+	 * @author Rebeca Carvalho, Victor Emanuel, Lara Danielly
+	 */
+	public abstract double area();
+	public abstract void desenhar(Graphics g);
 }
