@@ -12,12 +12,16 @@ public abstract class Forma {
 	/**
 	 * @authors Gustavo Soares, Marcos Costa
 	 */
-	
+
+	private Arena arena;
+
+	protected int tA, tL;
 	private Random r = new Random();
 	protected int x, y, velocidade;
 	protected int diametro = 20;
 	protected boolean cima = false, direita = false;
-	
+	protected Cores cor = new Cores();
+
 	/**
 	 * @author Gustavo Soares, Marcos Costa
 	 */
@@ -68,7 +72,6 @@ public abstract class Forma {
 	/**
 	 * @author Marcos Costa
 	 */
-
 	public Forma morph(Forma forma, Forma[] formas) {
 		int x_aux = forma.getX();
 		int y_aux = forma.getY();
