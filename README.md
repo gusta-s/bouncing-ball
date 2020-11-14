@@ -4,11 +4,11 @@
 
 <h2>- O que é a AWT</h2>
 
-A AWT (Abstract Window Tooltik) é uma biblioteca para a criação de interfaces gráficas de programas em Java. Ela determina a criação para a GUI (Graphical User Interface – Interface Gráfica do usuário) nativa. Na prática, isso significa que o estilo da interface se adaptará ao estilo de cada sistema operacional. Hoje em dia, ela não é muito utilizada devido a certos erros que podem ocorrer durante a mudança de sistemas, havendo uma preferência pela sua biblioteca complementar, a biblioteca SWING.
+<p> A AWT (Abstract Window Tooltik) é uma biblioteca para a criação de interfaces gráficas de programas em Java. Ela determina a criação para a GUI (Graphical User Interface – Interface Gráfica do usuário) nativa. Na prática, isso significa que o estilo da interface se adaptará ao estilo de cada sistema operacional. Hoje em dia, ela não é muito utilizada devido a certos erros que podem ocorrer durante a mudança de sistemas, havendo uma preferência pela sua biblioteca complementar, a biblioteca SWING.</p>
 	
-Os elementos da biblioteca AWT são conhecidos como componentes. Dentro destes componentes, há os containers, que são como uma tela em que são colocados todos os componentes, controlando o layout destes.
+<p> Os elementos da biblioteca AWT são conhecidos como componentes. Dentro destes componentes, há os containers, que são como uma tela em que são colocados todos os componentes, controlando o layout destes.</p>
 	
-Alguns componentes além dos container são:
+<p> Alguns componentes além dos container são:</p>
 <ol>
 	<li> Button (botão)</li>
 	<li>Label (rótulo)</li>
@@ -17,12 +17,12 @@ Alguns componentes além dos container são:
 	<li>Scroolbar (barra de rolagem)</li>
 <ol/>
 
-<h2>- Manipulação e Utilização
+<h2>- Manipulação e Utilização</h2>
 	
-Para importar a biblioteca AWT usa-se o comado:
+Para importar a biblioteca AWT utiliza-se o comando:
 <blockquote> import java.awt.*; </blockquote>
 
-Para criar um frame a partir de uma extensão da classe Frame utiliza-se o comando:
+<p> Para criar um frame a partir de uma extensão da classe Frame utiliza-se o comando:</p>
 ```
 public class nomedaClasse extends Frame{
     nomedaClasse(){  
