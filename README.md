@@ -133,7 +133,47 @@ Java permite que você crie um thread de duas maneiras:
     Thread t1 = new MyClass();
     t1.start();
   ```
-Até agora, usamos apenas dois threads: o thread principal e um thread filho . No entanto, nosso programa pode afetar quantos threads forem necessários. Vamos ver como podemos criar vários threads.
+Até agora, usamos apenas dois threads: o thread principal e um thread filho . No entanto, nosso programa pode afetar quantos threads forem necessários.
 
-
+<h3>Criação de Múltiplas Threads</h3>
+	Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 
+	<b>Implementando um sistema de múltiplas threads:</b>
+  ```
+  Class MyThread implements Runnable { 
+  String name; 
+  Thread t; 
+  	MyThread String thread){ 
+  	name= threadname; 
+  	t= new Thread(this, name); 
+  System.out.printIn(“New thread: ” +t); 
+  t.start();
+  } 
+  
+  public void run() { 
+   try { 
+  	for(int i= 5; i &gt; 0; i--) { 
+  	System.out.printIn(name + “: ” + i); 
+  	Thread.sleep(1000); 
+  } 
+  }catch (InterruptedExcepction e) { 
+  	System.out.printIn(name + “Interrupted”); 
+  } 
+  	System.out.printIn(name + “exiting.”); 
+  } 
+  } 
+  
+  class MultiThread { 
+  public static void main (String args[]) {  
+  	new MyThread(“One”); 
+  	new MyThread(“Two”);  
+  	new NewThread(“Three”); 
+  try { 
+  	Thread.sleep(10000); 
+  } catch (InterruptedException e) { 
+  	System.out.printIn(“Main thread Interrupted”); 
+  } 
+  	System.out.printIn(“Main thread exiting.”); 
+	} 
+  } 
+```
 
