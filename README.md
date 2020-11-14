@@ -137,6 +137,7 @@ Até agora, usamos apenas dois threads: o thread principal e um thread filho . N
 
 <h3>Criação de Múltiplas Threads</h3>
 	Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 
+	
 	<b>Implementando um sistema de múltiplas threads:</b>
   ```
   Class MyThread implements Runnable { 
@@ -148,7 +149,6 @@ Até agora, usamos apenas dois threads: o thread principal e um thread filho . N
   System.out.printIn(“New thread: ” +t); 
   t.start();
   } 
-  
   public void run() { 
    try { 
   	for(int i= 5; i &gt; 0; i--) { 
@@ -161,7 +161,6 @@ Até agora, usamos apenas dois threads: o thread principal e um thread filho . N
   	System.out.printIn(name + “exiting.”); 
   } 
   } 
-  
   class MultiThread { 
   public static void main (String args[]) {  
   	new MyThread(“One”); 
