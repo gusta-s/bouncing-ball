@@ -136,9 +136,9 @@ Java permite que você crie um thread de duas maneiras:
 Até agora, usamos apenas dois threads: o thread principal e um thread filho . No entanto, nosso programa pode afetar quantos threads forem necessários.
 
 <h3>- Criação de Múltiplas Threads</h3>
-	Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 
+    Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 
+	
 	**Implementando um sistema de múltiplas threads:**	
-  
   ```
   Class MyThread implements Runnable { 
   String name; 
