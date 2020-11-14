@@ -23,6 +23,7 @@ Para importar a biblioteca AWT utiliza-se o comando:
 <blockquote> import java.awt.*; </blockquote>
 
 <p> Para criar um frame a partir de uma extensão da classe Frame utiliza-se o comando:</p>
+
 ```
 public class nomedaClasse extends Frame{
     nomedaClasse(){  
