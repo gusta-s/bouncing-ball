@@ -134,7 +134,7 @@ public abstract class Forma {
 		
 		// condi��es para mudar de forma
 		if (y <= 50 || x <= 50) {
-			arena.setForma(moph(this, arena.getForma()));
+			arena.setForma(morph(this, arena.getFormas()));
 			cor = new Cores(gerarNumeroAleatorio(cor.getSizeCores()));
 			setVelocidade(velocidade -= gerarNumeroAleatorio(2));
 		}
@@ -149,7 +149,7 @@ public abstract class Forma {
 	public String toString() {
 		return "x: " + x + ", y: " + y + ", velocidade: " + velocidade;
 	}
-}
+
 	/**
 	 * @author Rebeca Carvalho, Victor Emanuel, Lara Danielly
 	 */
