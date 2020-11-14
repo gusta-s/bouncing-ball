@@ -11,9 +11,6 @@ import java.util.Random;
 import javax.swing.JFrame;
 
 import entities.Arena;
-import entities.ArenaGrande;
-import entities.ArenaMedia;
-import entities.ArenaPequena;
 
 public class Program extends JFrame implements Runnable {
 	
