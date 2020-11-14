@@ -1,6 +1,6 @@
 # bouncing-ball
 [POO] 2ª avaliação
-<h1>AWT</h1>
+<h1>AWT</h1> 
 
 <h2>- O que é a AWT</h2>
 
@@ -23,12 +23,13 @@ Para importar a biblioteca AWT usa-se o comado:
 <blockquote> import java.awt.*; </blockquote>
 
 Para criar um frame a partir de uma extensão da classe Frame utiliza-se o comando:
-<blockquote> public class nomedaClasse extends Frame{
+```
+public class nomedaClasse extends Frame{
     nomedaClasse(){  
 	comandos
     }		
-}</blockquote>
-	
+}
+```	
 
 <h1>SWING</h1>
 
