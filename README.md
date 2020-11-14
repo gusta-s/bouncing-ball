@@ -122,7 +122,7 @@ Java permite que você crie um thread de duas maneiras:
     // console: MyClass rodando
    ```
 2. **Estendendo Java Thread:**
-  * A segunda maneira de criar uma thread é criar uma nova classe que estenda **Thread**. De maneira similar ao interface executável, sobrescreve-se o método run( ) e então cria uma instância dessa classe. O método run( ) é o que é executado pela thread depois que você chama start (), em seguida, só precisa criar e iniciar o tópico anterior. Exemplo:
+  * A segunda maneira de criar uma thread é criar uma nova classe que estenda **Thread**. De maneira similar ao interface executável, sobrescreve-se o método run( ) e então cria uma instância dessa classe. O método run( ) é o que é executado pela thread depois que chama-se start (), em seguida, só precisa criar e iniciar o tópico anterior. Exemplo:
   ```
   public class MyClass extends Runnable{
     public void run(){
@@ -133,7 +133,7 @@ Java permite que você crie um thread de duas maneiras:
     Thread t1 = new MyClass();
     t1.start();
   ```
-Até agora, usamos apenas dois threads: o thread principal e um thread filho . No entanto, nosso programa pode afetar quantos threads forem necessários.
+Até agora, foram usadas apenas duas threads: a thread principal e uma thread filho . No entanto, o programa pode atingir quantas threads forem necessárias.
 
 <h3>- Criação de Múltiplas Threads</h3>
     Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 	
