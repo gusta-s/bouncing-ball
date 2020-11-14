@@ -15,7 +15,7 @@
 	<li>Checkbox (caixa de seleção)</li>
 	<li>Choice (escolha)</li>
 	<li>Scroolbar (barra de rolagem)</li>
-<ol/>
+</ol>
 
 <h2>- Manipulação e Utilização</h2>
 	
@@ -30,7 +30,40 @@ public class nomedaClasse extends Frame{
 	comandos
     }		
 }
-```	
+```
+
+### - Os tipos de containers disponíveis na AWT são:
+Os tipos de containers disponíveis na AWT são
+* **Window (janela)**: classe derivada de Container cujos objetos estão associadas a janelas.
+  ```
+  public class Window extends Container
+  ```
+* **Dialog (diálogo)**: classe derivada de Container que contém título e bordas. Só pode existir se estiver associada à uma classe Frame.
+* **Panel (painel)**: classe derivada de Container que define uma área de composição de componentes contida em alguma janela. A classe Applet é uma extensão de Panel que permite criar applets (palhetas).
+  ```
+  private Panel myPanel;
+  ```
+* **Frame**: classe derivada de Container que pode ser encarada como uma janela de nível máximo, podendo conter caixas de texto, botões, barras de rolagem, dentre outros componentes.
+  ```
+  private Frame myFrame;
+  ```
+### - Declarando objetos:
+Para declarar um objeto utiliza-se a forma ```verificadorDeAcesso Componente nomeDoObjeto```. Por exemplo:
+  ```
+  private Label lbName;
+  ```
+Para instanciar um objeto utiliza-se o comando: 
+  ```
+  lbName = new Label("Name");
+  ```
+Para definir valores e propriedades:
+  ```
+  lbName.setBounds(20,50,50,20);
+  ```
+Para adicionar elementos ao container utiliza-se o comando:
+  ```
+  this.add(lbNome);
+  ```
 
 <h1>SWING</h1>
 
