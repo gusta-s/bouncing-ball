@@ -14,6 +14,14 @@ public class Quadrado extends Forma{
 	public Quadrado() {
 		super();
 	}
+
+	/**
+	 * @author Lara Danielly
+	 */
+	public Quadrado(int arenaAltura, int arenaLargura, Arena arena, int lado, int x, int y) {
+		super(arenaAltura, arenaLargura, arena, x, y);
+		this.lado = lado;
+	}
 	
 	public double getLado() {
 		return lado;
