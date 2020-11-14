@@ -137,7 +137,8 @@ Até agora, usamos apenas dois threads: o thread principal e um thread filho . N
 
 <h3>- Criação de Múltiplas Threads</h3>
     Permite a execução de várias threads dentro de um contexto simples, compartilhando recursos do processo, e capazes de executar de forma independente. 	
-* **Implementando um sistema de múltiplas threads:**	
+
+  **Implementando um sistema de múltiplas threads:**	
   
   ```
   Class MyThread implements Runnable { 
