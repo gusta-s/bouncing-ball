@@ -1,21 +1,21 @@
 # bouncing-ball
 [POO] 2ª avaliação
-	<h1>AWT</h1> 
+<h1>AWT</h1> 
 
-	<h2>- O que é a AWT</h2>
+<h2>- O que é a AWT</h2>
 
-	<p> A AWT (Abstract Window Tooltik) é uma biblioteca para a criação de interfaces gráficas de programas em Java. Ela determina a criação para a GUI (Graphical User Interface – Interface Gráfica do usuário) nativa. Na prática, isso significa que o estilo da interface se adaptará ao estilo de cada sistema operacional. Hoje em dia, ela não é muito utilizada devido a certos erros que podem ocorrer durante a mudança de sistemas, havendo uma preferência pela sua biblioteca complementar, a biblioteca SWING.</p>
+<p> A AWT (Abstract Window Tooltik) é uma biblioteca para a criação de interfaces gráficas de programas em Java. Ela determina a criação para a GUI (Graphical User Interface – Interface Gráfica do usuário) nativa. Na prática, isso significa que o estilo da interface se adaptará ao estilo de cada sistema operacional. Hoje em dia, ela não é muito utilizada devido a certos erros que podem ocorrer durante a mudança de sistemas, havendo uma preferência pela sua biblioteca complementar, a biblioteca SWING.</p>
 
-	<p> Os elementos da biblioteca AWT são conhecidos como componentes. Dentro destes componentes, há os containers, que são como uma tela em que são colocados todos os componentes, controlando o layout destes.</p>
+<p> Os elementos da biblioteca AWT são conhecidos como componentes. Dentro destes componentes, há os containers, que são como uma tela em que são colocados todos os componentes, controlando o layout destes.</p>
 
-	<p> Alguns componentes além dos container são:</p>
-	<ol>
-		<li> Button (botão)</li>
-		<li>Label (rótulo)</li>
-		<li>Checkbox (caixa de seleção)</li>
-		<li>Choice (escolha)</li>
-		<li>Scroolbar (barra de rolagem)</li>
-	<ol/>
+<p> Alguns componentes além dos container são:</p>
+<ol>
+	<li> Button (botão)</li>
+	<li>Label (rótulo)</li>
+	<li>Checkbox (caixa de seleção)</li>
+	<li>Choice (escolha)</li>
+	<li>Scroolbar (barra de rolagem)</li>
+<ol/>
 
 <h2>- Manipulação e Utilização</h2>
 	
