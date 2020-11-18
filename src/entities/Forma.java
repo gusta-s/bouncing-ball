@@ -113,33 +113,37 @@ public abstract class Forma {
 			y += velocidade;
 		}
 		
-		if (x < 30) {   // depois de v�rios testes, o melhor valor para a condi��o foi 30
+		if (x + diametro < 0) {
+			x += diametro + 1;
 			direita = true;
 			setVelocidade(velocidade += gerarNumeroAleatorio(2));
 		}
 		
-		if (x > (tL - diametro)) {
+		if (x > (tL - (diametro + 1))) {
+			x = tL - diametro + 1;
 			direita = false;
 		}
 		
-		if (y < 30) {
+		if (y + diametro < 0) {
+			y += diametro + 1;
 			cima = false;
 			setVelocidade(velocidade -= gerarNumeroAleatorio(2));
 		}
 		
-		if (y > (tA - diametro)) {
+		if (y > (tA - (diametro + 1))) {
+			y = tA - diametro + 1;
 			cima = true;
 			
 		}
 		
-		// condi��es para mudar de forma
-		if (y <= 50 || x <= 50) {
+		// condicoes para mudar de forma
+		if (y <= 0 || x <= 0) {
 			arena.setForma(morph(this, arena.getFormas()));
 			cor = new Cores(gerarNumeroAleatorio(cor.getSizeCores()));
 			setVelocidade(velocidade -= gerarNumeroAleatorio(2));
 		}
 		
-		if (y > (tA - diametro) || x > (tL - diametro)) {
+		if (y > (tA - (diametro + 1)) || x > (tL - (diametro + 1))) {
 			arena.setForma(morph(this, arena.getFormas()));
 			cor = new Cores(gerarNumeroAleatorio(cor.getSizeCores()));
 		}
